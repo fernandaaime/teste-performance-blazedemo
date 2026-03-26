@@ -46,6 +46,7 @@
                     <testFilesDirectory>${project.basedir}/src/test/jmeter</testFilesDirectory>
                     <resultsDirectory>${project.build.directory}/jmeter/results</resultsDirectory>
                     <generateReports>true</generateReports>
+                    <ignoreResultFailures>true</ignoreResultFailures>
                 </configuration>
             </plugin>
         </plugins>

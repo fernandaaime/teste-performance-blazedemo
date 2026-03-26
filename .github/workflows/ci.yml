@@ -20,7 +20,7 @@ jobs:
           distribution: temurin
 
       - name: Run performance tests
-        run: mvn verify
+        run: mvn clean verify
 
       - name: Upload JMeter report
         if: always()
